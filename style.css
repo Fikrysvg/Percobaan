@@ -1,0 +1,33 @@
+/* Apply a black gradient background to the entire page */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #000000, #434343);
+    color: white; /* Ensure text is readable on the dark background */
+    min-height: 100vh;
+}
+
+/* Style for headings */
+h1, h2, h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style for links */
+a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Add some padding to the content */
+.container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
